@@ -1,0 +1,17 @@
+C:\Users\Erdem\source\repos\Bibliothek\Bibliothek\bin\Debug\Bibliothek.exe.config
+C:\Users\Erdem\source\repos\Bibliothek\Bibliothek\bin\Debug\Bibliothek.exe
+C:\Users\Erdem\source\repos\Bibliothek\Bibliothek\bin\Debug\Bibliothek.pdb
+C:\Users\Erdem\source\repos\Bibliothek\Bibliothek\obj\Debug\Bibliothek.csprojAssemblyReference.cache
+C:\Users\Erdem\source\repos\Bibliothek\Bibliothek\obj\Debug\Lagerstand.g.cs
+C:\Users\Erdem\source\repos\Bibliothek\Bibliothek\obj\Debug\MainWindow.g.cs
+C:\Users\Erdem\source\repos\Bibliothek\Bibliothek\obj\Debug\App.g.cs
+C:\Users\Erdem\source\repos\Bibliothek\Bibliothek\obj\Debug\Bibliothek_MarkupCompile.cache
+C:\Users\Erdem\source\repos\Bibliothek\Bibliothek\obj\Debug\Bibliothek_MarkupCompile.lref
+C:\Users\Erdem\source\repos\Bibliothek\Bibliothek\obj\Debug\Lagerstand.baml
+C:\Users\Erdem\source\repos\Bibliothek\Bibliothek\obj\Debug\MainWindow.baml
+C:\Users\Erdem\source\repos\Bibliothek\Bibliothek\obj\Debug\Bibliothek.g.resources
+C:\Users\Erdem\source\repos\Bibliothek\Bibliothek\obj\Debug\Bibliothek.Properties.Resources.resources
+C:\Users\Erdem\source\repos\Bibliothek\Bibliothek\obj\Debug\Bibliothek.csproj.GenerateResource.cache
+C:\Users\Erdem\source\repos\Bibliothek\Bibliothek\obj\Debug\Bibliothek.csproj.CoreCompileInputs.cache
+C:\Users\Erdem\source\repos\Bibliothek\Bibliothek\obj\Debug\Bibliothek.exe
+C:\Users\Erdem\source\repos\Bibliothek\Bibliothek\obj\Debug\Bibliothek.pdb
