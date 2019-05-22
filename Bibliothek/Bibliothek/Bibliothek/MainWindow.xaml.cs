@@ -23,6 +23,7 @@ namespace Bibliothek
         public MainWindow()
         {
             InitializeComponent();
+            cbStandort.Items.Add("Grieskirchen");
         }
     }
 }

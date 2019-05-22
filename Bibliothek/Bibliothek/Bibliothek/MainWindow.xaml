@@ -6,20 +6,14 @@
         xmlns:local="clr-namespace:Bibliothek"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="50"/>
-            <RowDefinition Height="10"/>
-        </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="1*" />
-            <ColumnDefinition Width="1*" />
-            <ColumnDefinition Width="1*" />
-        </Grid.ColumnDefinitions>
-        <Button>Verkauf/Ausleihen</Button>
-        <Button Grid.Column="1">Lagerstand</Button>
-        <Button Grid.Column="2">Buch hinzufügen</Button>
-
-        <ComboBox Name="cbStandort" Grid.Column="0" Grid.Row="1" Margin="0,11,0,-11" ></ComboBox>
+    <Grid Background="#FFE2E8F0">
+        <ComboBox Name="cbStandort" Grid.Column="0" Grid.Row="0" Margin="29,35,548.333,339.667" FontSize="20" ></ComboBox>
+        <Button Name="btnverkauf_verleih" Content="Vekauf/Verleih" Margin="29,194,571.333,170.667" FontWeight="Bold" Background="#FF0693CD" FontSize="20"/>
+        <Button x:Name="btnLagerstand" Content="Lagerbestand" Margin="301,194,299.333,170.667" Background="#FF0693CD" FontWeight="Bold" FontSize="20"/>
+        <Button x:Name="btnBuchhinzufügen" Content="Buch hinzufügen" Margin="568,194,32.333,170.667" FontWeight="Bold" FontSize="20">
+            <Button.Background>
+                <SolidColorBrush Color="#FF0693CD"/>
+            </Button.Background>
+        </Button>
     </Grid>
 </Window>

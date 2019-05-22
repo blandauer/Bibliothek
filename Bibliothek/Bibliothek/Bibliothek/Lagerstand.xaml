@@ -6,20 +6,18 @@
         xmlns:local="clr-namespace:Bibliothek"
         mc:Ignorable="d"
         Title="Lagerstand" Height="450" Width="800">
-    <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-        </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*" />
-            <ColumnDefinition Width="*" />
-            <ColumnDefinition Width="*" />
-        </Grid.ColumnDefinitions>
-       
-        <TextBox Name="tbISBN" Grid.Column="0" Grid.Row="1" Width="100"></TextBox>
-        <TextBox Name="tbBuchName" Grid.Column="1" Grid.Row="1" Width="100"></TextBox>
-        <TextBox Name="tbStandort" Grid.Column="2" Grid.Row="1" Width="100"></TextBox>
+    <Grid Margin="0,0,0.333,0.667">
+        <TextBox Name="tbISBN" Margin="138,10,452,359" Height="40" FontSize="16"/>
+        <TextBox Name="tbBuchName" Margin="138,56,452,313" Height="40" FontSize="16"/>
+        <Label Content="ISBN:" HorizontalAlignment="Left" Margin="10,16,0,0" VerticalAlignment="Top" Width="100" Height="40" FontSize="16"/>
+        <Label Content="Buchtitel:" HorizontalAlignment="Left" Margin="10,62,0,0" VerticalAlignment="Top" Width="100" Height="40" FontSize="16"/>
+        <Label Content="Standort" HorizontalAlignment="Left" Margin="10,106,0,0" VerticalAlignment="Top" Width="100" Height="40" FontSize="16"/>
+        <DataGrid x:Name="dataGrid_lager" HorizontalAlignment="Left" Height="226" Margin="10,184,0,0" VerticalAlignment="Top" Width="572"></DataGrid>
+        <ComboBox HorizontalAlignment="Left" Margin="138,106,0,0" VerticalAlignment="Top" Width="203" Height="40"/>
+        <!--<DataGrid.Columns>
+            <DataGridTextColumn Header="ISBN" Width="100"></DataGridTextColumn>
+            <DataGridTextColumn Header="Buchtitel" Width="100"></DataGridTextColumn>
+            <DataGridTextColumn Header="Standort" Width="100"></DataGridTextColumn>
+            </DataGrid.Columns>/>-->
     </Grid>
 </Window>

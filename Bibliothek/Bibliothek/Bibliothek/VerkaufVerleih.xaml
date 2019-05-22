@@ -5,25 +5,25 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Bibliothek"
         mc:Ignorable="d"
-        Title="VerkaufVerleih" Height="581" Width="800">
+        Title="MainWindow" Height="581" Width="800">
     <Grid Margin="0,0,0.333,-1.333">
         <Label Content="Personalnummer:" HorizontalAlignment="Left" Height="25" VerticalAlignment="Top" Margin="10,14,0,0" Width="170" FontSize="14"/>
-        <TextBox x:Name="txtpersonalnummer"   HorizontalAlignment="Left" Height="25" Margin="185,14,0,0" TextWrapping="Wrap" Text="&#xD;&#xA;" VerticalAlignment="Top" Width="167" FontSize="14" AutomationProperties.Name="Personalnummer"/>
+        <TextBox x:Name="txtpersonalnummer"   HorizontalAlignment="Left" Height="25" Margin="156,14,0,0" TextWrapping="Wrap" Text="&#xD;&#xA;" VerticalAlignment="Top" Width="167" FontSize="14" AutomationProperties.Name="Personalnummer"/>
         <Label Content="Kundennummer:" HorizontalAlignment="Left" Height="25" VerticalAlignment="Top" Margin="10,49,0,0" Width="170" FontSize="14"/>
-        <TextBox x:Name="txtkundennummer"   HorizontalAlignment="Left" Height="25" Margin="185,49,0,0" TextWrapping="Wrap" Text="&#xA;" VerticalAlignment="Top" Width="167" FontSize="14" AutomationProperties.Name="Personalnummer"/>
+        <TextBox x:Name="txtkundennummer"   HorizontalAlignment="Left" Height="25" Margin="156,49,0,0" TextWrapping="Wrap" Text="&#xA;" VerticalAlignment="Top" Width="167" FontSize="14" AutomationProperties.Name="Personalnummer"/>
         <Label Content="Vorname:" HorizontalAlignment="Left" Height="25" VerticalAlignment="Top" Margin="10,84,0,0" Width="170" FontSize="14"/>
-        <TextBox x:Name="txtvorname"   HorizontalAlignment="Left" Height="25" Margin="185,84,0,0" TextWrapping="Wrap" Text="&#xA;" VerticalAlignment="Top" Width="167" FontSize="14" AutomationProperties.Name="Personalnummer"/>
+        <TextBox x:Name="txtvorname"   HorizontalAlignment="Left" Height="25" Margin="156,84,0,0" TextWrapping="Wrap" Text="&#xA;" VerticalAlignment="Top" Width="167" FontSize="14" AutomationProperties.Name="Personalnummer"/>
         <Label Content="Nachname:" HorizontalAlignment="Left" Height="25" VerticalAlignment="Top" Margin="10,119,0,0" Width="170" FontSize="14"/>
-        <TextBox x:Name="txtnachname"   HorizontalAlignment="Left" Height="25" Margin="185,119,0,0" TextWrapping="Wrap" Text="&#xA;" VerticalAlignment="Top" Width="167" FontSize="14" AutomationProperties.Name="Personalnummer"/>
+        <TextBox x:Name="txtnachname"   HorizontalAlignment="Left" Height="25" Margin="156,119,0,0" TextWrapping="Wrap" Text="&#xA;" VerticalAlignment="Top" Width="167" FontSize="14" AutomationProperties.Name="Personalnummer"/>
         <Label Content="Anschrift:" HorizontalAlignment="Left" Height="25" VerticalAlignment="Top" Margin="10,154,0,0" Width="170" FontSize="14"/>
-        <TextBox x:Name="txtAnschrift"   HorizontalAlignment="Left" Height="25" Margin="185,154,0,0" TextWrapping="Wrap" Text="&#xA;" VerticalAlignment="Top" Width="167" FontSize="14" AutomationProperties.Name="Personalnummer"/>
+        <TextBox x:Name="txtAnschrift"   HorizontalAlignment="Left" Height="25" Margin="156,154,0,0" TextWrapping="Wrap" Text="&#xA;" VerticalAlignment="Top" Width="167" FontSize="14" AutomationProperties.Name="Personalnummer"/>
         <Label Content="PLZ:" HorizontalAlignment="Left" Height="25" VerticalAlignment="Top" Margin="10,189,0,0" Width="170" FontSize="14"/>
-        <TextBox x:Name="txtplz"   HorizontalAlignment="Left" Height="25" Margin="185,189,0,0" TextWrapping="Wrap" Text="&#xA;" VerticalAlignment="Top" Width="167" FontSize="14" AutomationProperties.Name="Personalnummer"/>
+        <TextBox x:Name="txtplz"   HorizontalAlignment="Left" Height="25" Margin="156,189,0,0" TextWrapping="Wrap" Text="&#xA;" VerticalAlignment="Top" Width="167" FontSize="14" AutomationProperties.Name="Personalnummer"/>
         <Label Content="Ort:" HorizontalAlignment="Left" Height="25" VerticalAlignment="Top" Margin="10,224,0,0" Width="170" FontSize="14"/>
-        <TextBox x:Name="txtort"   HorizontalAlignment="Left" Height="25" Margin="185,224,0,0" TextWrapping="Wrap" Text="&#xA;" VerticalAlignment="Top" Width="167" FontSize="14" AutomationProperties.Name="Personalnummer"/>
+        <TextBox x:Name="txtort"   HorizontalAlignment="Left" Height="25" Margin="156,224,0,0" TextWrapping="Wrap" Text="&#xA;" VerticalAlignment="Top" Width="167" FontSize="14" AutomationProperties.Name="Personalnummer"/>
         <Label Content="Kreditkartennummer:" HorizontalAlignment="Left" Height="25" VerticalAlignment="Top" Margin="10,259,0,0" Width="170" FontSize="14"/>
-        <TextBox x:Name="txtkreditkartennummer"   HorizontalAlignment="Left" Height="25" Margin="185,259,0,0" TextWrapping="Wrap" Text="&#xA;" VerticalAlignment="Top" Width="167" FontSize="14" AutomationProperties.Name="Personalnummer"/>
-        <Button Content="Verkaufen" HorizontalAlignment="Left" Margin="10,289,0,0" VerticalAlignment="Top" Width="342" Height="33" FontSize="14" Background="#FF2CBF1E" FontWeight="Bold"/>
+        <TextBox x:Name="txtkreditkartennummer"   HorizontalAlignment="Left" Height="25" Margin="156,259,0,0" TextWrapping="Wrap" Text="&#xA;" VerticalAlignment="Top" Width="167" FontSize="14" AutomationProperties.Name="Personalnummer"/>
+        <Button Content="Verkaufen" HorizontalAlignment="Left" Margin="10,289,0,0" VerticalAlignment="Top" Width="313" Height="33" FontSize="14" Background="#FF2CBF1E" FontWeight="Bold"/>
 
         <GroupBox Header="Neuer Auftrag:" HorizontalAlignment="Left" Height="142" Margin="588,22,0,0" VerticalAlignment="Top" Width="170">
             <StackPanel Margin="0,0,-0.333,71.333">
@@ -37,6 +37,6 @@
             </StackPanel>
 
         </GroupBox>
-        <DataGrid Name="Datagrid" HorizontalAlignment="Left" Height="198" Margin="10,345,0,0" VerticalAlignment="Top" Width="623"/>
+        <DataGrid x:Name="dataGrid_verkaufverleih" HorizontalAlignment="Left" Height="198" Margin="10,345,0,0" VerticalAlignment="Top" Width="623"/>
     </Grid>
 </Window>
