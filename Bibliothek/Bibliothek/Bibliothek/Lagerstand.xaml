@@ -21,6 +21,5 @@
         <TextBox Name="tbISBN" Grid.Column="0" Grid.Row="1" Width="100"></TextBox>
         <TextBox Name="tbBuchName" Grid.Column="1" Grid.Row="1" Width="100"></TextBox>
         <TextBox Name="tbStandort" Grid.Column="2" Grid.Row="1" Width="100"></TextBox>
-
     </Grid>
 </Window>
