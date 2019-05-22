@@ -7,19 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="50"/>
-            <RowDefinition Height="10"/>
-        </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="1*" />
-            <ColumnDefinition Width="1*" />
-            <ColumnDefinition Width="1*" />
-        </Grid.ColumnDefinitions>
-        <Button>Verkauf/Ausleihen</Button>
-        <Button Grid.Column="1">Lagerstand</Button>
-        <Button Grid.Column="2">Buch hinzufügen</Button>
+        <Button Content="Verkauf/Verleih" Click="Verkauf_Verleih" RenderTransformOrigin="0.5,0.5" Margin="617,118,10,188"/>
+        <Button Content="Lagerstand" Click="Lagerstand" Margin="313,118,314,188"/>
+        <Button Content="Buch Hinzufuegen" Click="Buch_Hinzufuegen" Margin="10,118,617,188"/>
 
-        <ComboBox Name="cbStandort" Grid.Column="0" Grid.Row="1" Margin="0,11,0,-11" ></ComboBox>
+        <ComboBox Name="cboStandardStandort" Margin="662,10,10,379" SelectedIndex="7" />
     </Grid>
 </Window>
