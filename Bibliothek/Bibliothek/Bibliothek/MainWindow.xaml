@@ -21,5 +21,6 @@
         <Button Grid.Column="2">Buch hinzufügen</Button>
 
         <ComboBox Name="cbStandort" Grid.Column="0" Grid.Row="1" Margin="0,11,0,-11" ></ComboBox>
-    </Grid>
+
+      </Grid>
 </Window>
