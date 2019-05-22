@@ -24,5 +24,24 @@ namespace Bibliothek
         {
             InitializeComponent();
         }
+
+        private void Verkauf_Verleih(object sender, RoutedEventArgs e)
+        {
+            Lagerstand window = new Lagerstand();
+            window.Show();
+        }
+
+        private void Lagerstand(object sender, RoutedEventArgs e)
+        {
+            VerkaufVerleih window = new VerkaufVerleih();
+            window.Show();
+        }
+
+        private void Buch_Hinzufuegen(object sender, RoutedEventArgs e)
+        {
+            BuchHinzufuegen window = new BuchHinzufuegen();
+            window.Show();
+        }
+
     }
 }

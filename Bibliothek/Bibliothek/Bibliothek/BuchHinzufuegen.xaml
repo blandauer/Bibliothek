@@ -6,17 +6,17 @@
         xmlns:local="clr-namespace:Bibliothek"
         mc:Ignorable="d"
         Title="BuchHinzufuegen" Height="450" Width="800">
-    <Grid>
-        <Label Content="ISBN:" Height="30" Width="40" Margin="10,10,742,379"/>
-        <Label Content="Titel:" Height="30" Width="40" Margin="10,40,742,349"/>
-        <Label Content="Autor:" Height="30" Width="50" Margin="10,70,742,319"/>
-        <Label Content="Verlag:" Height="30" Width="50" Margin="10,100,742,289"/>
-        <Label Content="Preis:" Height="30" Margin="10,130,742,259"/>
-        <TextBox Name ="isbn" HorizontalAlignment="Left" Height="23" Margin="75,14,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
-        <TextBox Name ="titel" HorizontalAlignment="Left" Height="23" Margin="75,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox Name ="autor" HorizontalAlignment="Left" Height="23" Margin="75,74,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox Name ="verlag" HorizontalAlignment="Left" Height="23" Margin="75,102,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox Name ="preis" HorizontalAlignment="Left" Height="23" Margin="75,134,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Button Name="buch_hinzufuegen" Content="Hinzufügen" Margin="10,179,682,210" Height="30"/>
-    </Grid>
+  <Grid>
+    <Label Content="ISBN:" Height="30" Width="40" Margin="10,10,742,379"/>
+    <Label Content="Titel:" Height="30" Width="40" Margin="10,40,742,349"/>
+    <Label Content="Autor:" Height="30" Width="50" Margin="10,70,742,319"/>
+    <Label Content="Verlag:" Height="30" Width="50" Margin="10,100,742,289"/>
+    <Label Content="Preis:" Height="30" Margin="10,130,742,259"/>
+    <TextBox Name ="isbn" HorizontalAlignment="Left" Height="23" Margin="75,14,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+    <TextBox Name ="titel" HorizontalAlignment="Left" Height="23" Margin="75,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+    <TextBox Name ="autor" HorizontalAlignment="Left" Height="23" Margin="75,74,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+    <TextBox Name ="verlag" HorizontalAlignment="Left" Height="23" Margin="75,102,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+    <TextBox Name ="preis" HorizontalAlignment="Left" Height="23" Margin="75,134,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+    <Button Name="buch_hinzufuegen" Content="Hinzufügen" Margin="10,179,682,210" Height="30"/>
+  </Grid>
 </Window>

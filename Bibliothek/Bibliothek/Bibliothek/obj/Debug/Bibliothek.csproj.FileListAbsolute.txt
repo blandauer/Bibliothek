@@ -34,3 +34,5 @@ C:\Users\gabri\OneDrive\Schule\DBI\DBI-Projekt\Bibliothek\Bibliothek\Bibliothek\
 C:\Users\gabri\OneDrive\Schule\DBI\DBI-Projekt\Bibliothek\Bibliothek\Bibliothek\obj\Debug\Bibliothek.csproj.CoreCompileInputs.cache
 C:\Users\gabri\OneDrive\Schule\DBI\DBI-Projekt\Bibliothek\Bibliothek\Bibliothek\obj\Debug\Bibliothek.exe
 C:\Users\gabri\OneDrive\Schule\DBI\DBI-Projekt\Bibliothek\Bibliothek\Bibliothek\obj\Debug\Bibliothek.pdb
+C:\Users\gabri\OneDrive\Schule\DBI\DBI-Projekt\Bibliothek\Bibliothek\Bibliothek\obj\Debug\BuchHinzufuegen.g.cs
+C:\Users\gabri\OneDrive\Schule\DBI\DBI-Projekt\Bibliothek\Bibliothek\Bibliothek\obj\Debug\BuchHinzufuegen.baml
