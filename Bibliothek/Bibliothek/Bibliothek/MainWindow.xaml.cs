@@ -23,6 +23,10 @@ namespace Bibliothek
         public MainWindow()
         {
             InitializeComponent();
+            cboStandardStandort.Items.Add("Wels");
+            cboStandardStandort.Items.Add("Linz");
+            cboStandardStandort.Items.Add("Steyr");
+            cboStandardStandort.SelectedIndex = 0;
         }
 
         private void Verkauf_Verleih(object sender, RoutedEventArgs e)

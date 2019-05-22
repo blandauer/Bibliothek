@@ -17,6 +17,6 @@
     <TextBox Name ="autor" HorizontalAlignment="Left" Height="23" Margin="75,74,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
     <TextBox Name ="verlag" HorizontalAlignment="Left" Height="23" Margin="75,102,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
     <TextBox Name ="preis" HorizontalAlignment="Left" Height="23" Margin="75,134,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-    <Button Name="buch_hinzufuegen" Content="Hinzufügen" Margin="10,179,682,210" Height="30"/>
+    <Button Name="buch_hinzufuegen" Content="Hinzufügen" Margin="10,182,682,207"/>
   </Grid>
 </Window>
